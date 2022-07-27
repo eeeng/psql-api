@@ -1,0 +1,21 @@
+{
+    "version":"0.2.0",
+    "configuration":[
+        {
+            "name"    : "Python : Django",
+            "type"    : "python",
+            "request" : "launch",
+            "program" : "${workspaceFolder}/manage.py",
+            "args"    : [
+                "runserver", 
+                "--noreload"
+            ],
+            "django" : true
+        }
+        
+
+    ]
+        
+    
+
+}
